@@ -19,20 +19,20 @@ class MyCartViewBody extends StatelessWidget {
           const SizedBox(
             height: 18,
           ),
-          Expanded(child: Image.asset('assets/images/basket_image_3.png')),
+          Expanded(child: Image.asset('assets/images/cart.png')),
           const SizedBox(
             height: 25,
           ),
           const OrderInfoItem(
             title: 'Order Total Price',
-            value: r'42.97$',
+            value: r'42.97 EGP',
           ),
           const SizedBox(
             height: 3,
           ),
           const OrderInfoItem(
             title: 'Discount',
-            value: r'0$',
+            value: r'0 EGP',
           ),
           const SizedBox(
             height: 3,
@@ -42,7 +42,7 @@ class MyCartViewBody extends StatelessWidget {
             height: 34,
             color: Color(0xffC7C7C7),
           ),
-          const TotalPrice(title: 'Total', value: r'42.97$'),
+          const TotalPrice(title: 'Total', value: r'42.97 EGP'),
           const SizedBox(
             height: 16,
           ),
@@ -62,7 +62,7 @@ class MyCartViewBody extends StatelessWidget {
                     );
                   });
             },
-            text: 'Complete CheckOut',
+            text: 'CheckOut',
             fontSize: 25,
             radius: 15,
             height: 60,

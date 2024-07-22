@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_stripe/flutter_stripe.dart';
 import 'package:smart_cart_payment_project/constants.dart';
 import 'package:smart_cart_payment_project/core/utils/api_keys.dart';
-import 'package:smart_cart_payment_project/view/screens/my_card_view.dart';
+import 'package:smart_cart_payment_project/view/screens/on_boarding_screens/on_boarding_screen.dart';
 
 void main() {
-  Stripe.publishableKey =ApiKeys.publishableKey;
+  Stripe.publishableKey = ApiKeys.publishableKey;
   runApp(const MyApp());
 }
 
@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
         scaffoldBackgroundColor: Colors.white,
         useMaterial3: true,
       ),
-      home: const MyCartView(),
+      home: const OnBoardingScreen(),
     );
   }
 }

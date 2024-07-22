@@ -37,14 +37,17 @@ dependencies:
   cupertino_icons: ^1.0.2
   flutter_svg: ^2.0.9
   flutter_credit_card: ^4.0.1
-  flutter_bloc: ^8.1.4
+  flutter_bloc: ^8.1.5
   font_awesome_flutter: ^10.7.0
   dio: ^5.4.1
   flutter_stripe: ^10.0.0
   dartz: ^0.10.1
-  bloc: ^8.1.3
+  bloc: ^8.1.4
   meta: ^1.11.0
   intl: ^0.17.0
+  mobile_scanner: ^5.1.0
+  smooth_page_indicator: ^1.1.0
+
 
 dev_dependencies:
   flutter_test:
